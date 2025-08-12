@@ -1,0 +1,35 @@
+/* styles_1-2-2.css */
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    display: block; 
+    color: #navy;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: lightblue;
+}
+/* Why doesn't title's background color change with this?  background-color: yellow;  */
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    display: block; 
+    color: #mediumseagreen;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: lightpink;
+}
+
+/* Compare: h1's text-align VS body's margin  */
+
+body, p {
+    margin: center;
+    line-height: 1.5;
+    font-size: 24px;
+    font-family: 'papyrus', sans-serif;
+    background-color: lightseagreen;
+    color: #360101;
+    padding: 20px;
+}   

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The viewport meta tag ensures the page is responsive and scales correctly on different devices. -->
+    <title>Inline CSS Practice</title>
+    <!--Compared to 3 "style" attributes below, the next line's "style" tag is a SECOND alternative to add CSS styles above body, applying style attributes to each element.
+    <style>
+        h1 {
+            background-color: lightgoldenrodyellow;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        img {
+            height: 250px;
+            width: 500px;
+            }
+    -->
+    <!--A THIRD alternative is to create a separate ~.css file, then "link" tag-->
+    <!--If more than one image, and each should have different styles, use "<img id="image-tonga"">, then #image-tonga-->
+</head>
+
+    <body style="background-color:powderblue;">
+
+        <h1 style="background-color:lightgoldenrodyellow;" style="font-family: 'Courier New', Courier, monospace;">Inline CSS Practice</h1>
+        <p style="background-color:paleturquoise;">Using Inline CSS:</p>
+        <ol>
+            <li>Header Courier</li>
+            <li>Change page's background color</li>
+            <li>Add image with height and width as 250px</li>
+        </ol>
+    
+        <!--Alternate for spacing "display: block" in styles.css file-->
+        <div id="image-tonga" style="text-align: center;">
+            <p>Satellite picture of earth with graphic addition of Pacific "Ring of Fire" - high geothermal activity.</p>
+            <img src="Earth_Pacific_fire_ring.jpg" alt="Satellite picture of earth with graphic addition of "Ring of Fire".; style="height: 250px; width: 500px;">
+        </div>
+
+
+    </body>
+
+</html>
